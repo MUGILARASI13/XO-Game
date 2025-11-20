@@ -29,5 +29,24 @@ and the winner details are stored in a MySQL database using Hibernate ORM.
 - JPA Annotations
 - Console-based UI
 
-## 📂 Project Structure
+## Project Structure
 
+src/
+├── entity/
+│ └── GameResult.java
+├── util/
+│ └── HibernateUtil.java
+├── dao/
+│ └── GameResultDAO.java
+├── game/
+│ └── TicTacToe.java
+└── Main.java
+
+hibernate.cfg.xml
+
+## Database Setup
+
+Create the database in MySQL:
+
+```sql
+CREATE DATABASE xodb;
